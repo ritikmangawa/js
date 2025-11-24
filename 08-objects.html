@@ -4,7 +4,9 @@
         <title>objects</title>
     </head>
     <body>
-        <script>const product = {
+        <script>
+            /*
+        const product = {
             name: 'socks',
             price: 1090
         }
@@ -19,6 +21,25 @@
 
         delete product.newProperty;
         console.log(product);
+
+        */
+
+        const product2 = {
+            name :'shirt',
+            'delivery-time' : '1 day',
+            rating: {
+                stars: 4.5,
+                count:87
+            }
+
+        };
+        console.log(product2);
+        consoe.log(product2.name);
+        console.log(product2['name']);
+        console.log(product2['delivery-time']);
+
+        console.log(product2.rating.count);
+
 
         </script>
     </body>
