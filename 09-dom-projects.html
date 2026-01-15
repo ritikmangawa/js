@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM PROJECTS</title>
+    </head>
+    <body>
+        <p>You Tube subscribe Button</p>
+        <button onclick = "subscribe()
+        //   const buttonElement = document.querySelector('.js-subscribe-button');
+        //   if (buttonElement.innerText === 'Subscribe'){
+        //     buttonElement.innerHTML = 'Subscribed';
+        //   } else {
+        //     buttonElement.innerHTML === 'Subscibe';
+        //   }
+        " class = "js-subscribe-button">Subscribe</button>
+        <!-- //if space come before button content i t show not change due to difference so use innerText property -->
+        <script>
+            // move upper code in script and put subscibe() for calling
+            function subscibe(){
+                const buttonElement = document.querySelector('.js-subscribe-button');
+                if (buttonElement.innerText === 'Subscribe'){
+                    buttonElement.innerHTML = 'Subscribed';
+                } else {
+                    buttonElement.innerHTML === 'Subscibe';
+                }
+            }
+        </script>
+    </body>
+</html>
