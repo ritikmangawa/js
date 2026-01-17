@@ -1,15 +1,29 @@
-console.log("rk");
+// console.log("rk");
+
+// const buttons = document.querySelector('.button');
+// const body = document.querySelector('body');
+
+// buttons.forEach(function(button){
+//     console.log(button);
+//     button.addEventListener('click' , function(e) {
+//         console.log(e);
+//         console.log(e.target);
+//         if (e.target.id === 'grey'){
+//             body.style.backgroundColor = e.target.id;
+//         }
+//     });
+// });
 
 const buttons = document.querySelector('.button');
 const body = document.querySelector('body');
 
-buttons.forEach(function(button){
+buttons.forEach(function(button) {
     console.log(button);
-    button.addEventListener('click' , function(e) {
+    button.addElementListener('click' , function(e){
         console.log(e);
         console.log(e.target);
         if (e.target.id === 'grey'){
-            body.style.backgroundColor = e.target.id;
+            body.style.backgroundColor = e.targer.id;
         }
     });
 });
